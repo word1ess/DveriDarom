@@ -1,0 +1,596 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/svgicons/logo-small.svg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/app.min.js"></script>
+    <title>Акции</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <header class="header__top">
+        <div class="container">
+            <div class="header__address">
+                <p>
+                    <img src="img/svgicons/address.svg" alt="">
+                    ул. Мстиславца, 24 | метро Восток, "Маяк Минска"
+                </p>
+                <p>
+                    <img src="img/svgicons/time.svg" alt="">
+                    с 9:00 до 20:00
+                    <br>
+                    БЕЗ ВЫХОДНЫХ
+                </p>
+            </div>
+            <nav class="header__dropdowns">
+                <div class="sale" href="tel:+7 925-267-46-34">
+                    <a href="#">АКЦИИ</a>
+                    <svg>
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </div>
+                <div href="tel:+7 925-267-46-34">
+                    <a href="#">О нас</a>
+                    <svg>
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </div>
+                <div href="tel:+7 925-267-46-34">
+                    <a href="#">Клиентам</a>
+                    <svg>
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </div>
+                <a href="#">Рассрочка</a>
+                <a href="#">Контакты</a>
+            </nav>
+        </div>
+    </header>
+    <footer class="header__bottom">
+        <div class="container">
+            <a href="/" class="header__logo">
+                <img src="img/svgicons/logo.svg" alt="logo">
+            </a>
+            <div class="header__burger _burger-catalog">
+                <img src="img/svgicons/catalog.svg" alt="logo">
+                Каталог
+            </div>
+            <form action="#" class="header__search search">
+                <input type="search" placeholder="Введите название...">
+                <button type="submit">
+                    <img src="img/svgicons/search-white.svg" alt="search-btn">
+                </button>
+            </form>
+            <div class="header__callback">
+                <a href="tel:+375 (29) 377-51-41">+375 (29) 377-51-41</a>
+                <button data-modal="callback">Вам перезвонить?</button>
+            </div>
+            <nav class="header__buttons">
+                <a href="#">
+                    <svg>
+                        <use xlink:href="#favorite"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg>
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </footer>
+</header>
+<!-- <section class="header-catalog">
+    <div class="header-catalog__window">
+        <div class="container">
+            <main class="header-catalog__row">
+                <nav class="header-catalog__links _links-main">
+                    <a href="#" class="_link-main">
+                        Дизайнерская мебель
+                        <img src="img/svgicons/slider-arrow.svg" alt="">
+                    </a>
+                    <a href="#" class="_link-main">
+                        Horeca
+                        <img src="img/svgicons/slider-arrow.svg" alt="">
+                    </a>
+                    <a href="#">Освещение</a>
+                    <a href="#">Посуда</a>
+                    <a href="#">Вазы</a>
+                    <a href="#">Посуда</a>
+                </nav>
+                <div class="header-catalog__sublinks _links-sub">
+                    <nav class="header-catalog__links">
+                        <a href="#" class="_link-sub">
+                            Стулья
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Диваны
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Хранение
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Столы
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Уличная мебель
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#">Скамьи</a>
+                        <a href="#">Кровати</a>
+                    </nav>
+                    <nav class="header-catalog__links">
+                        <a href="#" class="_link-sub">
+                            Стулья1
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Диваны
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Хранение
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Столы
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Уличная мебель
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#">Скамьи</a>
+                        <a href="#">Кровати</a>
+                    </nav>
+                </div>
+                <div class="header-catalog__last _links-last">
+                    <nav class="header-catalog__links">
+                        <a href="#">Кушетки</a>
+                        <a href="#">Модульные диваны</a>
+                        <a href="#">Прямые диваны</a>
+                        <a href="#">Угловые диваны</a>
+                        <a href="#">Раскладные диваны</a>
+                    </nav>
+                </div>
+            </main>
+            <aside class="header-aside">
+                <a href="#" class="header-aside__block">
+                    <img src="img/header/sale.png" alt="">
+                    <p>скидки</p>
+                </a>
+                <a href="#" class="header-aside__block">
+                    <img src="img/header/instock.png" alt="">
+                    <p>в наличии</p>
+                </a>
+            </aside>
+        </div>
+    </div>
+</section> -->
+<svg display="none">
+    <symbol id="arrow-down" viewBox="0 0 14 8">
+        <g>
+            <path d="M4.10679e-07 1.51351L1.63333 -5.40564e-07L7 4.97297L12.3667 -7.13953e-08L14 1.51351L7 8L4.10679e-07 1.51351Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="arrow-catalog" viewBox="0 0 21 8">
+        <g>
+            <path d="M20.3536 4.03556C20.5488 3.8403 20.5488 3.52372 20.3536 3.32845L17.1716 0.146473C16.9763 -0.0487893 16.6597 -0.0487893 16.4645 0.146473C16.2692 0.341735 16.2692 0.658318 16.4645 0.85358L19.2929 3.68201L16.4645 6.51043C16.2692 6.7057 16.2692 7.02228 16.4645 7.21754C16.6597 7.4128 16.9763 7.4128 17.1716 7.21754L20.3536 4.03556ZM0 3.68201V4.18201H20V3.68201V3.18201H0V3.68201Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="arrow-catalog-big" viewBox="0 0 79 8">
+        <g>
+            <path d="M78.3536 4.03568C78.5488 3.84042 78.5488 3.52384 78.3536 3.32858L75.1716 0.146595C74.9763 -0.0486672 74.6597 -0.0486672 74.4645 0.146595C74.2692 0.341857 74.2692 0.65844 74.4645 0.853702L77.2929 3.68213L74.4645 6.51056C74.2692 6.70582 74.2692 7.0224 74.4645 7.21766C74.6597 7.41293 74.9763 7.41293 75.1716 7.21766L78.3536 4.03568ZM0 3.68213V4.18213H78V3.68213V3.18213H0V3.68213Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="favorite" viewBox="0 0 18 16">
+        <g>
+            <path d="M8.64198 15.858L7.38889 14.7346C5.93416 13.4239 4.73148 12.2932 3.78086 11.3426C2.83025 10.392 2.07407 9.53858 1.51235 8.78241C0.950617 8.02623 0.558128 7.33128 0.334877 6.69753C0.111626 6.06379 0 5.41564 0 4.75309C0 3.39918 0.453704 2.26852 1.36111 1.36111C2.26852 0.453704 3.39918 0 4.75309 0C5.50206 0 6.21502 0.158436 6.89198 0.475309C7.56893 0.792181 8.15226 1.23868 8.64198 1.81481C9.13169 1.23868 9.71502 0.792181 10.392 0.475309C11.0689 0.158436 11.7819 0 12.5309 0C13.8848 0 15.0154 0.453704 15.9228 1.36111C16.8302 2.26852 17.284 3.39918 17.284 4.75309C17.284 5.41564 17.1723 6.06379 16.9491 6.69753C16.7258 7.33128 16.3333 8.02623 15.7716 8.78241C15.2099 9.53858 14.4537 10.392 13.5031 11.3426C12.5525 12.2932 11.3498 13.4239 9.89506 14.7346L8.64198 15.858ZM8.64198 13.5247C10.0247 12.286 11.1626 11.2238 12.0556 10.338C12.9486 9.45216 13.6543 8.68158 14.1728 8.02623C14.6914 7.37088 15.0514 6.78755 15.2531 6.27623C15.4547 5.76492 15.5556 5.2572 15.5556 4.75309C15.5556 3.88889 15.2675 3.16872 14.6914 2.59259C14.1152 2.01646 13.3951 1.7284 12.5309 1.7284C11.8539 1.7284 11.2274 1.91924 10.6512 2.30093C10.0751 2.68261 9.67901 3.16872 9.46296 3.75926H7.82099C7.60494 3.16872 7.20885 2.68261 6.63272 2.30093C6.05658 1.91924 5.43004 1.7284 4.75309 1.7284C3.88889 1.7284 3.16872 2.01646 2.59259 2.59259C2.01646 3.16872 1.7284 3.88889 1.7284 4.75309C1.7284 5.2572 1.82922 5.76492 2.03086 6.27623C2.23251 6.78755 2.59259 7.37088 3.11111 8.02623C3.62963 8.68158 4.33539 9.45216 5.22839 10.338C6.1214 11.2238 7.25926 12.286 8.64198 13.5247Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="cart" viewBox="0 0 18 18">
+        <g>
+            <path d="M5.18518 17.284C4.70988 17.284 4.30298 17.1147 3.96451 16.7762C3.62603 16.4378 3.45679 16.0309 3.45679 15.5556C3.45679 15.0802 3.62603 14.6734 3.96451 14.3349C4.30298 13.9964 4.70988 13.8272 5.18518 13.8272C5.66049 13.8272 6.06739 13.9964 6.40586 14.3349C6.74434 14.6734 6.91358 15.0802 6.91358 15.5556C6.91358 16.0309 6.74434 16.4378 6.40586 16.7762C6.06739 17.1147 5.66049 17.284 5.18518 17.284ZM13.8272 17.284C13.3519 17.284 12.945 17.1147 12.6065 16.7762C12.268 16.4378 12.0988 16.0309 12.0988 15.5556C12.0988 15.0802 12.268 14.6734 12.6065 14.3349C12.945 13.9964 13.3519 13.8272 13.8272 13.8272C14.3025 13.8272 14.7094 13.9964 15.0478 14.3349C15.3863 14.6734 15.5556 15.0802 15.5556 15.5556C15.5556 16.0309 15.3863 16.4378 15.0478 16.7762C14.7094 17.1147 14.3025 17.284 13.8272 17.284ZM4.45062 3.45679L6.52469 7.77778H12.5741L14.9506 3.45679H4.45062ZM3.62963 1.7284H16.3765C16.7078 1.7284 16.9599 1.87603 17.1327 2.1713C17.3056 2.46656 17.3128 2.76543 17.1543 3.0679L14.0864 8.59877C13.928 8.88683 13.7155 9.11008 13.4491 9.26852C13.1826 9.42696 12.8909 9.50617 12.5741 9.50617H6.1358L5.18518 11.2346H15.5556V12.963H5.18518C4.53704 12.963 4.04732 12.6785 3.71605 12.1096C3.38477 11.5406 3.37037 10.9753 3.67284 10.4136L4.83951 8.2963L1.72839 1.7284H0V0H2.80864L3.62963 1.7284Z"/>
+        </g>
+    </symbol>
+</svg>
+<!-- <svg>
+    <use xlink:href="#arrow-down"></use>
+</svg> -->
+
+            <main class="content">
+                <nav class="page-nav">
+                    <div class="container">
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/rooms.svg" alt="">
+                            Межкомнатные двери
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/exit.svg" alt="">
+                            Входные двери
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/furniture.svg" alt="">
+                            Фурнитура
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/master.svg" alt="">
+                            Вызвать замерщика
+                        </a>
+                    </div>
+                </nav>
+                <section class="block-marquee-section">
+                    <div class="container">
+                        <div class="block-marquee block-red-bg">
+                            <div class="block-marquee__marquee">
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <nav class="breadcrumbs">
+                    <div class="container">
+                        <p>Главная</p>
+                        <div class="breadcrumbs__separator">·</div>
+                        <a href="#">
+                            Акции
+                        </a>
+                    </div>
+                </nav>
+                <section class="page-sales section">
+                    <div class="container">
+                        <div class="page-sales__sale">
+                            <img src="img/" alt="">
+                            <div>
+                                <h3>Скидка 10% на любые двери нашего ассортимента</h3>
+                                <p>Акция действует до конца месяца. Спешите воспользоваться выгодным предложением и обновить интерьер с максимальной экономией!</p>
+                                <a href="#" class="link-catalog">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="page-duo section">
+                    <div class="container">
+                        <div class="mission">
+                            <img src="img/mission/content.png" alt="">
+                            <div class="mission__row">
+                                <p>
+                                    Если Вы не нашли интересующую информацию о скидках на нашем сайте -
+                                    <a href="tel:+375 (29) 377-51-41">
+                                        <b>звоните +375 (29) 377-51-41</b>
+                                    </a>
+                                    и мы сделаем для Вас индивидуальное предложение!
+                                </p>
+                                <a href="#" data-modal="callback" class="btn btn-red">перейти в каталог</a>
+                            </div>
+                        </div>
+                        <button data-modal="call-master" class="call-master small">
+                            <img src="img/call-master/small_2.png" alt="">
+                            <p>Вызвать замерщика</p>
+                        </button>
+                    </div>
+                </section>
+                <section class="steps section">
+                    <div class="container">
+                        <header class="block-header center">
+                            <h2>ВЫ ПЛАТИТЕ НЕ ЗА ДВЕРИ, А ЗА ЦЕЛЫЙ КОМПЛЕКС УСЛУГ</h2>
+                        </header>
+                        <div class="steps__row">
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/1.svg" alt="">
+                                    <h3>Мы воплощаем вашу мечту об идеальных дверях</h3>
+                                </div>
+                                <p>Скорее всего, Вы стремитесь к конечному результату и в своей голове видите уже установленные в проемах определенные двери.</p>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/2.svg" alt="">
+                                    <h3>гарантия 10 лет</h3>
+                                </div>
+                                <p>Предлагаем высококачественные двери, профессиональную установку и предоставляем 10-летнюю гарантию на наши услуги.</p>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/3.svg" alt="">
+                                    <h3>Берем на себя все заботы о процессе</h3>
+                                </div>
+                                <p>Вам не придется беспокоиться о логистике, монтаже или возможных нестыковках. Мы управляем всеми этапами, чтобы вы были спокойны.</p>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/4.svg" alt="">
+                                    <h3>Единая ответственность за результат</h3>
+                                </div>
+                                <p>Мы не перекладываем ответственность между производителем, продавцом и установщиком. Вы работаете с одной командой, отвечающей за весь процесс.</p>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/5.svg" alt="">
+                                    <h3>Комплексный подход вместо просто дверей</h3>
+                                </div>
+                                <p>
+                                    Мы предлагаем не просто "деревяшки",
+                                    <br>
+                                    а полный комплекс услуг — от консультации до установки, обеспечивая комфорт и уверенность в результате.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="photos section">
+                    <div class="container">
+                        <header class="block-header flex">
+                            <h2>десятки качественных монтажей ежедневно</h2>
+                            <div class="separator"></div>
+                            <div class="swiper-buttons">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </header>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="block-text section">
+                    <div class="container">
+                        <div class="block-text__row">
+                            <h2>
+                                Входные металлические двери
+                            </h2>
+                            <p>Требования к выходным дверям значительно выше, чем к межкомнатным. Дверь в квартире мы используем каждый день в течение многих лет. Поэтому, чтобы обеспечить безопасность и максимальный комфорт, она должна быть:</p>
+                            <ul>
+                                <li>
+                                    <b>Эргономичной.</b>
+                                    Входная дверь в квартиру легко открывается и закрывается за счет фурнитура. Она обеспечивает комфортное пользование конструкцией;
+                                </li>
+                                <li>
+                                    <b>Безопасной.</b>
+                                    Изделие должно надежно защищать имущество и жителей от злоумышленников. Ориентируйтесь на модели с 2 и более типами замков;
+                                </li>
+                                <li>
+                                    <b>Тихой.</b>
+                                    Входная группа блокирует шум, поступающий извне. Уровень шумоизоляции зависит от качества и толщины наполнителя, а также наличия изоляционных слоев;
+                                </li>
+                                <li>
+                                    <b>Теплой.</b>
+                                    Рекомендуем выбирать модели с двойным контуром уплотнителей, которые исключают сквозняки в доме.
+                                </li>
+                            </ul>
+                            <p>Стоит учитывать, что двери в квартиру и частный дом различаются. Учитывайте этот факт, если решаетесь подбирать полотно самостоятельно.</p>
+                            <h2>Какие двери вы можете купить у нас:</h2>
+                            <p>
+                                В модельной линейке металлических дверей представлен большой выбор отделок разных стилей, цветов и текстур. Квартирные двери, представленные в нашем каталоге, изготовлены из качественных материалов. Металлические двери в квартиру отличает:
+                            </p>
+                            <ul>
+                                <li>Прочность и надёжность – обеспечивается за счет дополнительных ребер жесткости и стальных листов;</li>
+                                <li>Высокие теплоизоляционные свойства;</li>
+                                <li>Разнообразие дизайна и вариантов отделки;</li>
+                                <li>Направление открывания на выбор – левое, правое, угол 180;</li>
+                                <li>Монтаж в нестандартные проёмы.</li>
+                            </ul>
+                            <h2>
+                                Как выбрать?
+                            </h2>
+                            <p>
+                                Требования к выходным дверям значительно выше, чем к межкомнатным. Дверь в квартире мы используем каждый день в течение многих лет. Поэтому, чтобы обеспечить безопасность и максимальный комфорт, она должна быть:
+                            </p>
+                            <ul>
+                                <li>
+                                    <b>Толщину</b>
+                                    – оптимальный размер составляет не менее 2 мм;
+                                </li>
+                                <li>
+                                    <b>Замки и ручки</b>
+                                    – прочная фурнитура выдерживает постоянные нагрузки;
+                                </li>
+                                <li>
+                                    <b>Петли</b>
+                                    – равномерно распределяют нагрузку и защищают дверь от провисаний;
+                                </li>
+                                <li>
+                                    <b>Отделку</b>
+                                    – за счет декора полотно становится украшением дома.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="assortiment section">
+                    <div class="container">
+                        <footer class="assortiment__advantages">
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/1.svg" alt="">
+                                <div>
+                                    <h3>Доставка</h3>
+                                    <p>по всей Беларуси</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/2.svg" alt="">
+                                <div>
+                                    <h3>Профессиональная установка</h3>
+                                    <p>чистый и аккуратный монтаж</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/3.svg" alt="">
+                                <div>
+                                    <h3>оплата</h3>
+                                    <p>любым способом</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/4.svg" alt="">
+                                <div>
+                                    <h3>Гарантии</h3>
+                                    <p>на монтаж и фурнитуру</p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
+                <section class="block-marquee-section">
+                    <div class="container">
+                        <div class="block-marquee block-red-bg">
+                            <div class="block-marquee__marquee">
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <aside class="footer__aside">
+            <a href="#">
+                <img src="img/svgicons/logo.svg" alt="">
+            </a>
+            <nav>
+                <a href="tel:+ 375 (29) 377 51 41">
+                    <img src="img/phones/1.png" alt="">
+                    + 375 (29) 377 51 41
+                </a>
+                <a href="tel:+ 375 (33) 377 51 41">
+                    <img src="img/phones/2.png" alt="">
+                    + 375 (33) 377 51 41
+                </a>
+                <a href="tel:+ 375 (17) 388 22 08">
+                    <img src="img/phones/3.png" alt="">
+                    + 375 (17) 388 22 08
+                </a>
+            </nav>
+            <nav>
+                <a href="mailto:dveri-darom@mail.ru">
+                    <img src="img/svgicons/invite/mail.svg" alt="">
+                    e-mail: dveri-darom@mail.ru
+                </a>
+                <a href="#">
+                    <img src="img/svgicons/invite/address.svg" alt="">
+                    ул. Мстиславца, 24 | метро Восток, "Маяк Минска"
+                </a>
+                <a href="#">
+                    <img src="img/svgicons/invite/time.svg" alt="">
+                    <span>
+                        с 9:00 до 20:00
+                        <b>БЕЗ ВЫХОДНЫХ</b>
+                    </span>
+                </a>
+            </nav>
+            <p>
+                <b>Общество с ограниченной ответственностью "Любимые Двери"</b>
+                <br>
+                УНП 193645476, г. Минск, ул. Мстиславца 24-155, 220114
+                <br>
+                р/с: BY19MTBK 30120001093300116293 в ЗАО «Минский транзитный банк» 220007
+                <br>
+                БИК МТВКВY22, г. Минск ул. Толстого, 10
+                <br>
+            </p>
+        </aside>
+        <main class="footer__main">
+            <div class="block-labels">
+                <button class="block-labels__item green">
+                    <img src="img/block-labels/1.png" alt="">
+                    <p>Обратный звонок</p>
+                </button>
+                <button class="block-labels__item yellow">
+                    <img src="img/block-labels/2.png" alt="">
+                    <p>Вызвать замерщика</p>
+                </button>
+            </div>
+            <nav>
+                <div>
+                    <a href="#">Межкомнатные двери</a>
+                    <a href="#">Входные двери</a>
+                    <a href="#">Каталог</a>
+                    <a href="#">АКЦИИ</a>
+                    <a href="#">распродажа %</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div>
+                    <h2>Клиентам</h2>
+                    <a href="#">Как заказать</a>
+                    <a href="#">Замер проемов</a>
+                    <a href="#">Доставка</a>
+                    <a href="#">Монтаж дверей</a>
+                    <a href="#">Оплата</a>
+                    <a href="#">Обращение по гарантии</a>
+                    <a href="#">Купить 1 дверь</a>
+                    <a href="#">Рассрочка</a>
+                    <a href="#">Блог о дверях</a>
+                </div>
+                <div>
+                    <h2>Мы в социальных сетях:</h2>
+                    <div class="socials">
+                        <a href="#">
+                            <img src="img/socials/inst.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/socials/yt.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <p>
+                    © 2010-2024 | ООО "Любимые Двери" УНП 193645476 | Реальный цвет товара может отличаться от изображения в рекламных материалах и на сайте. Фотографии товаров носят иллюстрационный характер. Для выбора цвета и модели дверей мы приглашаем Вас в салон. Информация о товаре и ценах, размещённая на сайте, не является публичной офертой. Используя данный сайт, Вы даете согласие на использование файлов cookie и других технологий, чтобы помочь Вам в навигации, а также предоставить лучший пользовательский опыт. Если вы не хотите использовать файлы «cookie», измените настройки браузера или покиньте сайт.
+                    <br>
+                    Подробнее:
+                    <a href="#">Политика конфиденциальности</a>
+                </p>
+            </nav>
+        </main>
+    </div>
+</footer>
+
+        </div>
+    </body>
+</html>

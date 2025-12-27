@@ -1,0 +1,1532 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/svgicons/logo-small.svg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/app.min.js"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <header class="header__top">
+        <div class="container">
+            <div class="header__address">
+                <p>
+                    <img src="img/svgicons/address.svg" alt="">
+                    ул. Мстиславца, 24 | метро Восток, "Маяк Минска"
+                </p>
+                <p>
+                    <img src="img/svgicons/time.svg" alt="">
+                    с 9:00 до 20:00
+                    <br>
+                    БЕЗ ВЫХОДНЫХ
+                </p>
+            </div>
+            <nav class="header__dropdowns">
+                <div class="sale" href="tel:+7 925-267-46-34">
+                    <a href="#">АКЦИИ</a>
+                    <svg>
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </div>
+                <div href="tel:+7 925-267-46-34">
+                    <a href="#">О нас</a>
+                    <svg>
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </div>
+                <div href="tel:+7 925-267-46-34">
+                    <a href="#">Клиентам</a>
+                    <svg>
+                        <use xlink:href="#arrow-down"></use>
+                    </svg>
+                </div>
+                <a href="#">Рассрочка</a>
+                <a href="#">Контакты</a>
+            </nav>
+        </div>
+    </header>
+    <footer class="header__bottom">
+        <div class="container">
+            <a href="/" class="header__logo">
+                <img src="img/svgicons/logo.svg" alt="logo">
+            </a>
+            <div class="header__burger _burger-catalog">
+                <img src="img/svgicons/catalog.svg" alt="logo">
+                Каталог
+            </div>
+            <form action="#" class="header__search search">
+                <input type="search" placeholder="Введите название...">
+                <button type="submit">
+                    <img src="img/svgicons/search-white.svg" alt="search-btn">
+                </button>
+            </form>
+            <div class="header__callback">
+                <a href="tel:+375 (29) 377-51-41">+375 (29) 377-51-41</a>
+                <button data-modal="callback">Вам перезвонить?</button>
+            </div>
+            <nav class="header__buttons">
+                <a href="#">
+                    <svg>
+                        <use xlink:href="#favorite"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg>
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </footer>
+</header>
+<!-- <section class="header-catalog">
+    <div class="header-catalog__window">
+        <div class="container">
+            <main class="header-catalog__row">
+                <nav class="header-catalog__links _links-main">
+                    <a href="#" class="_link-main">
+                        Дизайнерская мебель
+                        <img src="img/svgicons/slider-arrow.svg" alt="">
+                    </a>
+                    <a href="#" class="_link-main">
+                        Horeca
+                        <img src="img/svgicons/slider-arrow.svg" alt="">
+                    </a>
+                    <a href="#">Освещение</a>
+                    <a href="#">Посуда</a>
+                    <a href="#">Вазы</a>
+                    <a href="#">Посуда</a>
+                </nav>
+                <div class="header-catalog__sublinks _links-sub">
+                    <nav class="header-catalog__links">
+                        <a href="#" class="_link-sub">
+                            Стулья
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Диваны
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Хранение
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Столы
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Уличная мебель
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#">Скамьи</a>
+                        <a href="#">Кровати</a>
+                    </nav>
+                    <nav class="header-catalog__links">
+                        <a href="#" class="_link-sub">
+                            Стулья1
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Диваны
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Хранение
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Столы
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#" class="_link-sub">
+                            Уличная мебель
+                            <img src="img/svgicons/slider-arrow.svg" alt="">
+                        </a>
+                        <a href="#">Скамьи</a>
+                        <a href="#">Кровати</a>
+                    </nav>
+                </div>
+                <div class="header-catalog__last _links-last">
+                    <nav class="header-catalog__links">
+                        <a href="#">Кушетки</a>
+                        <a href="#">Модульные диваны</a>
+                        <a href="#">Прямые диваны</a>
+                        <a href="#">Угловые диваны</a>
+                        <a href="#">Раскладные диваны</a>
+                    </nav>
+                </div>
+            </main>
+            <aside class="header-aside">
+                <a href="#" class="header-aside__block">
+                    <img src="img/header/sale.png" alt="">
+                    <p>скидки</p>
+                </a>
+                <a href="#" class="header-aside__block">
+                    <img src="img/header/instock.png" alt="">
+                    <p>в наличии</p>
+                </a>
+            </aside>
+        </div>
+    </div>
+</section> -->
+<svg display="none">
+    <symbol id="arrow-down" viewBox="0 0 14 8">
+        <g>
+            <path d="M4.10679e-07 1.51351L1.63333 -5.40564e-07L7 4.97297L12.3667 -7.13953e-08L14 1.51351L7 8L4.10679e-07 1.51351Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="arrow-catalog" viewBox="0 0 21 8">
+        <g>
+            <path d="M20.3536 4.03556C20.5488 3.8403 20.5488 3.52372 20.3536 3.32845L17.1716 0.146473C16.9763 -0.0487893 16.6597 -0.0487893 16.4645 0.146473C16.2692 0.341735 16.2692 0.658318 16.4645 0.85358L19.2929 3.68201L16.4645 6.51043C16.2692 6.7057 16.2692 7.02228 16.4645 7.21754C16.6597 7.4128 16.9763 7.4128 17.1716 7.21754L20.3536 4.03556ZM0 3.68201V4.18201H20V3.68201V3.18201H0V3.68201Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="arrow-catalog-big" viewBox="0 0 79 8">
+        <g>
+            <path d="M78.3536 4.03568C78.5488 3.84042 78.5488 3.52384 78.3536 3.32858L75.1716 0.146595C74.9763 -0.0486672 74.6597 -0.0486672 74.4645 0.146595C74.2692 0.341857 74.2692 0.65844 74.4645 0.853702L77.2929 3.68213L74.4645 6.51056C74.2692 6.70582 74.2692 7.0224 74.4645 7.21766C74.6597 7.41293 74.9763 7.41293 75.1716 7.21766L78.3536 4.03568ZM0 3.68213V4.18213H78V3.68213V3.18213H0V3.68213Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="favorite" viewBox="0 0 18 16">
+        <g>
+            <path d="M8.64198 15.858L7.38889 14.7346C5.93416 13.4239 4.73148 12.2932 3.78086 11.3426C2.83025 10.392 2.07407 9.53858 1.51235 8.78241C0.950617 8.02623 0.558128 7.33128 0.334877 6.69753C0.111626 6.06379 0 5.41564 0 4.75309C0 3.39918 0.453704 2.26852 1.36111 1.36111C2.26852 0.453704 3.39918 0 4.75309 0C5.50206 0 6.21502 0.158436 6.89198 0.475309C7.56893 0.792181 8.15226 1.23868 8.64198 1.81481C9.13169 1.23868 9.71502 0.792181 10.392 0.475309C11.0689 0.158436 11.7819 0 12.5309 0C13.8848 0 15.0154 0.453704 15.9228 1.36111C16.8302 2.26852 17.284 3.39918 17.284 4.75309C17.284 5.41564 17.1723 6.06379 16.9491 6.69753C16.7258 7.33128 16.3333 8.02623 15.7716 8.78241C15.2099 9.53858 14.4537 10.392 13.5031 11.3426C12.5525 12.2932 11.3498 13.4239 9.89506 14.7346L8.64198 15.858ZM8.64198 13.5247C10.0247 12.286 11.1626 11.2238 12.0556 10.338C12.9486 9.45216 13.6543 8.68158 14.1728 8.02623C14.6914 7.37088 15.0514 6.78755 15.2531 6.27623C15.4547 5.76492 15.5556 5.2572 15.5556 4.75309C15.5556 3.88889 15.2675 3.16872 14.6914 2.59259C14.1152 2.01646 13.3951 1.7284 12.5309 1.7284C11.8539 1.7284 11.2274 1.91924 10.6512 2.30093C10.0751 2.68261 9.67901 3.16872 9.46296 3.75926H7.82099C7.60494 3.16872 7.20885 2.68261 6.63272 2.30093C6.05658 1.91924 5.43004 1.7284 4.75309 1.7284C3.88889 1.7284 3.16872 2.01646 2.59259 2.59259C2.01646 3.16872 1.7284 3.88889 1.7284 4.75309C1.7284 5.2572 1.82922 5.76492 2.03086 6.27623C2.23251 6.78755 2.59259 7.37088 3.11111 8.02623C3.62963 8.68158 4.33539 9.45216 5.22839 10.338C6.1214 11.2238 7.25926 12.286 8.64198 13.5247Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="cart" viewBox="0 0 18 18">
+        <g>
+            <path d="M5.18518 17.284C4.70988 17.284 4.30298 17.1147 3.96451 16.7762C3.62603 16.4378 3.45679 16.0309 3.45679 15.5556C3.45679 15.0802 3.62603 14.6734 3.96451 14.3349C4.30298 13.9964 4.70988 13.8272 5.18518 13.8272C5.66049 13.8272 6.06739 13.9964 6.40586 14.3349C6.74434 14.6734 6.91358 15.0802 6.91358 15.5556C6.91358 16.0309 6.74434 16.4378 6.40586 16.7762C6.06739 17.1147 5.66049 17.284 5.18518 17.284ZM13.8272 17.284C13.3519 17.284 12.945 17.1147 12.6065 16.7762C12.268 16.4378 12.0988 16.0309 12.0988 15.5556C12.0988 15.0802 12.268 14.6734 12.6065 14.3349C12.945 13.9964 13.3519 13.8272 13.8272 13.8272C14.3025 13.8272 14.7094 13.9964 15.0478 14.3349C15.3863 14.6734 15.5556 15.0802 15.5556 15.5556C15.5556 16.0309 15.3863 16.4378 15.0478 16.7762C14.7094 17.1147 14.3025 17.284 13.8272 17.284ZM4.45062 3.45679L6.52469 7.77778H12.5741L14.9506 3.45679H4.45062ZM3.62963 1.7284H16.3765C16.7078 1.7284 16.9599 1.87603 17.1327 2.1713C17.3056 2.46656 17.3128 2.76543 17.1543 3.0679L14.0864 8.59877C13.928 8.88683 13.7155 9.11008 13.4491 9.26852C13.1826 9.42696 12.8909 9.50617 12.5741 9.50617H6.1358L5.18518 11.2346H15.5556V12.963H5.18518C4.53704 12.963 4.04732 12.6785 3.71605 12.1096C3.38477 11.5406 3.37037 10.9753 3.67284 10.4136L4.83951 8.2963L1.72839 1.7284H0V0H2.80864L3.62963 1.7284Z"/>
+        </g>
+    </symbol>
+</svg>
+<!-- <svg>
+    <use xlink:href="#arrow-down"></use>
+</svg> -->
+
+            <main class="content">
+                <nav class="page-nav">
+                    <div class="container">
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/rooms.svg" alt="">
+                            Межкомнатные двери
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/exit.svg" alt="">
+                            Входные двери
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/furniture.svg" alt="">
+                            Фурнитура
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/master.svg" alt="">
+                            Вызвать замерщика
+                        </a>
+                    </div>
+                </nav>
+                <section class="intro">
+                    <div class="container">
+                        <div class="intro-swiper">
+                            <img src="img/index/intro/bg.png" alt="">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="intro-swiper__info">
+                                            <label class="label">ДОСТАВКА</label>
+                                            <h2>Быстро и в срок</h2>
+                                            <p>Мы работаем быстро — устанавливаем до 2000 дверей в месяц</p>
+                                            <h2>Всё свое</h2>
+                                            <p>Доставкой и установкой дверей занимается наша служба, мы не работаем с посредниками</p>
+                                        </div>
+                                        <div class="intro-swiper__images">
+                                            <div class="swiper">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <img src="img/index/intro/content.png" alt="">
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <img src="img/index/intro/content.png" alt="">
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <img src="img/index/intro/content.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-pagination"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="intro-swiper__info">
+                                            <label>ДОСТАВКА</label>
+                                            <h2>Быстро и в срок</h2>
+                                            <p>Мы работаем быстро — устанавливаем до 2000 дверей в месяц</p>
+                                            <h2>Всё свое</h2>
+                                            <p>Доставкой и установкой дверей занимается наша служба, мы не работаем с посредниками</p>
+                                        </div>
+                                        <div class="intro-swiper__images">
+                                            <div class="swiper">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <img src="img/index/intro/content.png" alt="">
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <img src="img/index/intro/content.png" alt="">
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <img src="img/index/intro/content.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-pagination"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <div class="block-marquee block-red-bg">
+                            <div class="block-marquee__marquee">
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                            </div>
+                        </div>
+                        <div class="intro-doors">
+                            <a href="#">
+                                <img src="img/index/intro/door.png" alt="">
+                                <div class="intro-doors__info">
+                                    <p>межкомнатные двери</p>
+                                    <button class="link-catalog">
+                                        В каталог
+                                        <svg>
+                                            <use xlink:href="#arrow-catalog"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <img src="img/index/intro/door.png" alt="">
+                                <div class="intro-doors__info">
+                                    <p>Входные двери</p>
+                                    <button class="link-catalog">
+                                        В каталог
+                                        <svg>
+                                            <use xlink:href="#arrow-catalog"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </a>
+                            <button data-modal="call-master" class="call-master small">
+                                <img src="img/call-master/small.png" alt="">
+                                <p>Вызвать замерщика</p>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="index-doors">
+                    <div class="container">
+                        <div class="index-doors__item">
+                            <header class="block-header">
+                                <h2>Межкомнатные двери</h2>
+                                <nav class="index-doors__links tabs-links">
+                                    <a href="#">По цвету</a>
+                                    <a href="#">По назначению</a>
+                                    <a href="#">По отделке</a>
+                                </nav>
+                            </header>
+                            <div class="index-doors__tabs grid-cards">
+                                <nav class="index-doors__tab grid-cards__row col-5 tabs-block active">
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Экошпон
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Шпон
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Эмаль
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        ПВХ
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Под покраску
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Сосна
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Полипропилен
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Деревянные
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Все двери
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/1.png" alt="">
+                                        </div>
+                                    </a>
+                                </nav>
+                                <nav class="index-doors__tab grid-cards__row col-5 tabs-block">
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Шпон
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Эмаль
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        ПВХ
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Под покраску
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Сосна
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Полипропилен
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Деревянные
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Все двери
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="index-doors__item">
+                            <header class="block-header">
+                                <nav class="index-doors__links tabs-links red">
+                                    <a href="#">ХИТ недели</a>
+                                    <a href="#">Новинки</a>
+                                    <a href="#">Со скидкой %</a>
+                                </nav>
+                            </header>
+                            <div class="index-doors__tabs grid-cards">
+                                <nav class="index-doors__tab tabs-block active">
+                                    <div class="swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/2.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь ОКА массив сосны "Палермо"
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/2.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь Экошпон ДинМар S1
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/2.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь Доминика 322
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/2.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь ОКА массив ольхи Элегия
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/2.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь Доминика 322
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <img src="img/index/doors/2.png" alt="">
+                                                    Межкомнатная дверь ОКА массив сосны "Палермо"
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-buttons">
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <nav class="index-doors__nav btns center">
+                            <a href="#" class="btn btn-red">Все межкомнатные двери</a>
+                            <a href="#" class="btn btn-bordered">Помогите мне выбрать дверь</a>
+                        </nav>
+                    </div>
+                </section>
+                <section class="index-doors">
+                    <div class="container">
+                        <div class="index-doors__item">
+                            <header class="block-header">
+                                <h2>Входные двери</h2>
+                                <nav class="index-doors__links tabs-links">
+                                    <a href="#">По цвету</a>
+                                    <a href="#">По конструкции</a>
+                                    <a href="#">Тип панели</a>
+                                </nav>
+                            </header>
+                            <div class="index-doors__tabs grid-cards">
+                                <nav class="index-doors__tab grid-cards__row col-5 tabs-block px active">
+                                    <a href="#" class="grid-cards__card only-text">
+                                        С зеркалом
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/3.png" alt="">
+                                            <img src="img/index/doors/4.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Со стеклом
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/3.png" alt="">
+                                            <img src="img/index/doors/4.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        С терморазрывом
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/3.png" alt="">
+                                            <img src="img/index/doors/4.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        С шумоизоляцией
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/3.png" alt="">
+                                            <img src="img/index/doors/4.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Утепленные
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/3.png" alt="">
+                                            <img src="img/index/doors/4.png" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Все двери
+                                        <div class="grid-cards__doors">
+                                            <img src="img/index/doors/3.png" alt="">
+                                            <img src="img/index/doors/4.png" alt="">
+                                        </div>
+                                    </a>
+                                </nav>
+                                <nav class="index-doors__tab grid-cards__row col-5 tabs-block">
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Шпон
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Эмаль
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        ПВХ
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Под покраску
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Сосна
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Полипропилен
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Деревянные
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                    <a href="#" class="grid-cards__card only-text">
+                                        Все двери
+                                        <img src="img/index/doors/1.png" alt="">
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="index-doors__item">
+                            <header class="block-header">
+                                <nav class="index-doors__links tabs-links red">
+                                    <a href="#">ХИТ недели</a>
+                                    <a href="#">Новинки</a>
+                                    <a href="#">Со скидкой %</a>
+                                </nav>
+                            </header>
+                            <div class="index-doors__tabs grid-cards">
+                                <nav class="index-doors__tab tabs-block active">
+                                    <div class="swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/3.png" alt="">
+                                                        <img src="img/index/doors/4.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь ОКА массив сосны "Палермо"
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/3.png" alt="">
+                                                        <img src="img/index/doors/4.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь Экошпон ДинМар S1
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/3.png" alt="">
+                                                        <img src="img/index/doors/4.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь Доминика 322
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/3.png" alt="">
+                                                        <img src="img/index/doors/4.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь ОКА массив ольхи Элегия
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/3.png" alt="">
+                                                        <img src="img/index/doors/4.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь Доминика 322
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                            <div class="swiper-slide grid-cards__card">
+                                                <a href="#">
+                                                    <div class="grid-cards__doors">
+                                                        <img src="img/index/doors/3.png" alt="">
+                                                        <img src="img/index/doors/4.png" alt="">
+                                                    </div>
+                                                    Межкомнатная дверь ОКА массив сосны "Палермо"
+                                                </a>
+                                                <label class="label">
+                                                    -20%
+                                                </label>
+                                                <footer class="grid-cards__footer">
+                                                    <div class="grid-cards__price">
+                                                        <p>204 Byn</p>
+                                                        <p>170 Byn</p>
+                                                    </div>
+                                                    <div class="grid-cards__buttons">
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#favorite"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <a href="#">
+                                                            <svg>
+                                                                <use xlink:href="#cart"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </footer>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-buttons">
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <nav class="index-doors__nav btns center">
+                            <a href="#" class="btn btn-red">Все входные двери</a>
+                            <a href="#" class="btn btn-bordered">Помогите мне выбрать дверь</a>
+                        </nav>
+                    </div>
+                </section>
+                <section class="mission section">
+                    <div class="container">
+                        <img src="img/mission/content.png" alt="">
+                        <img src="img/mission/bg.png" alt="">
+                        <div class="mission__row">
+                            <header class="block-header center">
+                                <h2>наша миссия и цель:</h2>
+                                <p>делать дома людей уютней и дарить комфорт каждому клиенту через безупречный сервис.</p>
+                            </header>
+                            <div class="mission__items">
+                                <div class="mission__item">
+                                    <h3>с 2010 года</h3>
+                                    <p>работаем “под ключ”</p>
+                                </div>
+                                <div class="mission__item">
+                                    <h3>> 54 тыс.</h3>
+                                    <p>установленных дверей</p>
+                                </div>
+                                <div class="mission__item">
+                                    <h3>Покупайте без денег</h3>
+                                    <p>оплата в рассрочку без банков и предоплат</p>
+                                </div>
+                                <div class="mission__item">
+                                    <h3>10 лет</h3>
+                                    <p>гарантия на монтаж</p>
+                                </div>
+                                <div class="mission__item">
+                                    <h3>до 2-х лет</h3>
+                                    <p>гарантия на фурнитуру</p>
+                                </div>
+                                <div class="mission__item">
+                                    <h3>за 3 дня</h3>
+                                    <p>привезем двери</p>
+                                </div>
+                            </div>
+                            <a href="#" data-modal="callback" class="btn btn-red">Оставить заявку</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="assortiment section">
+                    <div class="container">
+                        <main class="assortiment__row">
+                            <div class="assortiment__info">
+                                <h2>Широкий ассортимент</h2>
+                                <p>
+                                    Мы работаем с ответственными производителями — в нашем ассортименте всегда находится
+                                    <b>более 7000 моделей входных и межкомнатных дверей</b>
+                                    26-ти белорусских и российских фабрик
+                                </p>
+                                <h3>
+                                    <b>У нас есть нужные вам двери!</b>
+                                    1500 дверей всегда в наличии на нашем складе в Минске!
+                                </h3>
+                            </div>
+                            <img src="img/assortiment/content.png" alt="">
+                        </main>
+                        <footer class="assortiment__advantages">
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/1.svg" alt="">
+                                <div>
+                                    <h3>Доставка</h3>
+                                    <p>по всей Беларуси</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/2.svg" alt="">
+                                <div>
+                                    <h3>Профессиональная установка</h3>
+                                    <p>чистый и аккуратный монтаж</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/3.svg" alt="">
+                                <div>
+                                    <h3>оплата</h3>
+                                    <p>любым способом</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/4.svg" alt="">
+                                <div>
+                                    <h3>Гарантии</h3>
+                                    <p>на монтаж и фурнитуру</p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
+                <section class="team section">
+                    <div class="container">
+                        <header class="block-header center">
+                            <h2>наша команда</h2>
+                            <p>С Вами работают профессионалы, от первого звонка и до монтажа — за ваш комфорт отвечают высококвалифицированные сотрудники.</p>
+                        </header>
+                        <div class="team__row">
+                            <div class="team__item">
+                                <img src="img/team/1.png" alt="">
+                                <div class="team__info">
+                                    <p>Алёна</p>
+                                    <p>менеджер по продажам</p>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <img src="img/team/1.png" alt="">
+                                <div class="team__info">
+                                    <p>елена</p>
+                                    <p>менеджер по продажам</p>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <img src="img/team/1.png" alt="">
+                                <div class="team__info">
+                                    <p>дмитрий</p>
+                                    <p>менеджер по продажам</p>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <img src="img/team/1.png" alt="">
+                                <div class="team__info">
+                                    <p>екатерина</p>
+                                    <p>менеджер по продажам</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-labels">
+                            <button class="block-labels__item green">
+                                <img src="img/block-labels/1.png" alt="">
+                                <p>Обратный звонок</p>
+                            </button>
+                        </div>
+                        <header class="block-header center">
+                            <p>В нашей компании всегда бесплатный замер, к Вам в любое время могут выехать наши специалисты по обмеру:</p>
+                        </header>
+                        <div class="team__row">
+                            <div class="team__item">
+                                <img src="img/team/1.png" alt="">
+                                <div class="team__info">
+                                    <p>дмитрий</p>
+                                    <p>специалист по замеру</p>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <img src="img/team/1.png" alt="">
+                                <div class="team__info">
+                                    <p>игорь</p>
+                                    <p>специалист по замеру</p>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <img src="img/team/1.png" alt="">
+                                <div class="team__info">
+                                    <p>владислав</p>
+                                    <p>специалист по замеру</p>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <img src="img/team/1.png" alt="">
+                                <div class="team__info">
+                                    <p>радион</p>
+                                    <p>специалист по замеру</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-labels">
+                            <button class="block-labels__item yellow">
+                                <img src="img/block-labels/2.png" alt="">
+                                <p>Вызвать замерщика</p>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="sale section">
+                    <div class="container">
+                        <header class="block-header red">
+                            <h2>АКЦИИ</h2>
+                        </header>
+                        <div class="sale__row">
+                            <a href="#" class="sale__item">
+                                <img src="img/sale/1.png" alt="">
+                            </a>
+                            <a href="#" class="sale__item">
+                                <img src="img/sale/2.png" alt="">
+                            </a>
+                            <a href="#" class="sale__item">
+                                <img src="img/sale/3.png" alt="">
+                            </a>
+                            <a href="#" class="sale__item">
+                                <img src="img/sale/4.png" alt="">
+                            </a>
+                            <a href="#" class="sale__item">
+                                <img src="img/sale/5.png" alt="">
+                            </a>
+                            <a href="#" class="sale__item">
+                                <button class="link-catalog">
+                                    Смотреть все
+                                    <svg>
+                                        <use xlink:href="#arrow-catalog-big"></use>
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="steps section">
+                    <div class="container">
+                        <header class="block-header center">
+                            <h2>ВЫ ПЛАТИТЕ НЕ ЗА ДВЕРИ, А ЗА ЦЕЛЫЙ КОМПЛЕКС УСЛУГ</h2>
+                        </header>
+                        <div class="steps__row">
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/1.svg" alt="">
+                                    <h3>Мы воплощаем вашу мечту об идеальных дверях</h3>
+                                </div>
+                                <p>Скорее всего, Вы стремитесь к конечному результату и в своей голове видите уже установленные в проемах определенные двери.</p>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/2.svg" alt="">
+                                    <h3>гарантия 10 лет</h3>
+                                </div>
+                                <p>Предлагаем высококачественные двери, профессиональную установку и предоставляем 10-летнюю гарантию на наши услуги.</p>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/3.svg" alt="">
+                                    <h3>Берем на себя все заботы о процессе</h3>
+                                </div>
+                                <p>Вам не придется беспокоиться о логистике, монтаже или возможных нестыковках. Мы управляем всеми этапами, чтобы вы были спокойны.</p>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/4.svg" alt="">
+                                    <h3>Единая ответственность за результат</h3>
+                                </div>
+                                <p>Мы не перекладываем ответственность между производителем, продавцом и установщиком. Вы работаете с одной командой, отвечающей за весь процесс.</p>
+                            </div>
+                            <div class="steps__item">
+                                <div class="steps__header">
+                                    <img src="img/svgicons/steps/5.svg" alt="">
+                                    <h3>Комплексный подход вместо просто дверей</h3>
+                                </div>
+                                <p>
+                                    Мы предлагаем не просто "деревяшки",
+                                    <br>
+                                    а полный комплекс услуг — от консультации до установки, обеспечивая комфорт и уверенность в результате.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="container">
+                        <div class="call-master normal">
+                            <img src="img/call-master/normal.png" alt="">
+                            <form action="#">
+                                <h2>Заявка на бесплатный замер</h2>
+                                <p>Мастер приедет с каталогом дверей и образцами цвета!</p>
+                                <div class="call-master__input">
+                                    <input type="tel" name="phone" placeholder="+375(__)___-__-__">
+                                    <button type="submit" class="btn btn-red">отправить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <section class="cards section">
+                    <div class="container">
+                        <div class="cards__info">
+                            <header class="block-header center">
+                                <h2>
+                                    Заказывайте двери
+                                    <span>в рассрочку до 36 месяцев!</span>
+                                </h2>
+                            </header>
+                            <div class="cards__cards">
+                                <div class="cards__card">
+                                    <img src="img/cards/1.png" alt="">
+                                </div>
+                                <div class="cards__card">
+                                    <img src="img/cards/2.png" alt="">
+                                </div>
+                                <div class="cards__card">
+                                    <img src="img/cards/3.png" alt="">
+                                </div>
+                                <div class="cards__card">
+                                    <img src="img/cards/4.png" alt="">
+                                </div>
+                            </div>
+                            <p>Более 12 вариантов рассрочки</p>
+                            <button class="link-catalog">
+                                Подробнее
+                                <svg>
+                                    <use xlink:href="#arrow-catalog"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <img src="img/cards/content.png" alt="">
+                    </div>
+                </section>
+                <section class="photos section">
+                    <div class="container">
+                        <header class="block-header flex">
+                            <h2>десятки качественных монтажей ежедневно</h2>
+                            <div class="separator"></div>
+                            <div class="swiper-buttons">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </header>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="invite section">
+                    <div class="container">
+                        <div class="invite__photos">
+                            <a href="./img/invite/1.png" data-fancybox="gallery-invite">
+                                <img src="img/invite/1.png" alt="">
+                            </a>
+                            <a href="./img/invite/2.png" data-fancybox="gallery-invite">
+                                <img src="img/invite/2.png" alt="">
+                            </a>
+                            <a href="./img/invite/3.png" data-fancybox="gallery-invite">
+                                <img src="img/invite/3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="invite__info">
+                            <header class="block-header">
+                                <h2>Приглашаем Вас посетить наш салон</h2>
+                            </header>
+                            <div class="invite__items">
+                                <div>
+                                    <p>
+                                        <img src="img/svgicons/invite/address.svg" alt="">
+                                        ул. Мстиславца, 24 | метро Восток, "Маяк Минска"
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        <img src="img/svgicons/invite/time.svg" alt="">
+                                        <span>
+                                            с 9:00 до 20:00
+                                           БЕЗ ВЫХОДНЫХ
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <nav class="invite__items">
+                                <div>
+                                    <a href="tel:+ 375 (29) 377 51 41">
+                                        <img src="img/phones/1.png" alt="">
+                                        + 375 (29) 377 51 41
+                                    </a>
+                                    <a href="tel:+ 375 (33) 377 51 41">
+                                        <img src="img/phones/2.png" alt="">
+                                        + 375 (33) 377 51 41
+                                    </a>
+                                    <a href="tel:+ 375 (17) 388 22 08">
+                                        <img src="img/phones/3.png" alt="">
+                                        + 375 (17) 388 22 08
+                                    </a>
+                                    <a href="mailto:dveri-darom@mail.ru">
+                                        <img src="img/svgicons/invite/mail.svg" alt="">
+                                        e-mail: dveri-darom@mail.ru
+                                    </a>
+                                </div>
+                                <div>
+                                    <h3>Мы в социальных сетях:</h3>
+                                    <div class="socials">
+                                        <a href="#">
+                                            <img src="img/socials/inst.png" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/socials/yt.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </section>
+                <section class="prize">
+                    <div class="container">
+                        <div class="prize__row">
+                            <div class="prize__info">
+                                <img src="img/prize/content.png" alt="">
+                                <p>
+                                    <b>Мы являемся победителем в номинации "Салон дверей №1"</b>
+                                    <br>
+                                    по результатам премии "Номер один" 2022 г.
+                                </p>
+                            </div>
+                            <iframe
+                                src="https://www.youtube.com/embed/mqgLCtfxdLk?si=asdXocgzK8cPIn-M"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                        <div class="show-more">
+                            <div class="show-more__text">
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel optio mollitia saepe iusto. Harum illo, soluta quibusdam sequi totam voluptatem provident eaque maxime voluptas deleniti explicabo aliquid beatae error doloremque.
+                                Nobis ipsam veniam autem similique aliquam necessitatibus beatae totam eaque asperiores, ullam nemo fugiat quaerat atque porro quas quis iure! Deserunt unde sit alias itaque rem, consequuntur natus! Aliquam, possimus?
+                                Dolor deleniti necessitatibus facilis molestias, officiis earum, soluta dolorem dolore incidunt itaque voluptate nisi, illum placeat asperiores voluptas? Quaerat laudantium voluptatum esse similique qui explicabo vero, culpa reiciendis voluptatem quisquam?
+                                Minus consequuntur quisquam, dolorem, veritatis quos nihil ex laboriosam distinctio omnis numquam dolore totam modi. Eveniet ipsa debitis at. Autem ab quo ipsam et vero laudantium mollitia laborum in assumenda.
+                                Dolores, minima ipsa? Consequuntur sint quas aspernatur quisquam ducimus recusandae magni ullam rem odio, dolorem commodi illum perspiciatis quia rerum sunt voluptates numquam repellendus, quasi hic, minus esse. Earum, deleniti.
+                                Vitae voluptate repudiandae officia a dolore commodi culpa inventore error magnam? Dignissimos pariatur est architecto hic, aliquid atque doloremque. Facere quae voluptatem vel nesciunt exercitationem magnam asperiores tempore officiis temporibus!
+                                Maxime corrupti natus rem ullam enim, incidunt nam minima voluptates tempora cumque autem unde aliquid vero pariatur reiciendis, dolorum sint nulla consequuntur aliquam eos minus necessitatibus. Eaque odit numquam saepe.
+                                Illum praesentium voluptates magni laudantium corporis sunt vero, earum repudiandae quod dolorum vitae in est officiis! Non necessitatibus, ducimus placeat eos similique consequatur dolorum, accusantium reprehenderit mollitia aspernatur, possimus iusto.
+                                Odit, est! Harum, aut quisquam. Aperiam hic quis nisi, sapiente nostrum fuga aut culpa perferendis ipsa iste illum aliquid. Velit animi quisquam magnam sapiente fugit obcaecati quidem id voluptates nostrum.
+                                Voluptate natus corporis autem nihil eveniet ex! Iure, corrupti autem animi porro impedit voluptate recusandae maxime eum harum labore ab. Perferendis dolore doloribus architecto provident, magni nulla hic unde ullam!
+                                Maxime, quidem repellat tenetur eos illo, nulla, dignissimos commodi quasi dolorum nostrum aspernatur tempora delectus culpa ipsa totam sint praesentium porro facilis consequatur id! Hic a impedit deserunt ratione dignissimos.
+                                Quia illo ab distinctio asperiores sapiente animi itaque eum voluptatem iure voluptas odit nesciunt pariatur perspiciatis, mollitia in aliquid dolores minus! Laudantium dolorem necessitatibus rerum ducimus architecto enim consequatur natus!
+                                Nobis enim pariatur consequuntur? Architecto porro dignissimos minus ex tempora doloremque quos eum autem ipsa voluptate ullam neque earum ipsum fugit, quis similique, quas iusto? Officiis, iusto beatae! Assumenda, cumque!
+                                Est eius odio nulla, distinctio officia perferendis, ad rerum nemo assumenda eaque quam! Nobis deserunt totam optio doloribus asperiores quas inventore ipsum, sunt esse alias illum corrupti delectus? Velit, quae.
+                                Temporibus, amet debitis repellendus harum in facilis labore libero atque adipisci, voluptas aperiam sunt eius id illo nam sed est cupiditate iure veritatis dolorem maxime illum numquam itaque. Reprehenderit, qui.
+                                Animi eaque, nostrum assumenda nemo tempore voluptas eligendi expedita placeat nobis qui nam a, eos iusto delectus voluptatem saepe quaerat aut? Sint harum odio dolore rerum possimus quibusdam neque qui!
+                                Reiciendis amet necessitatibus, est distinctio vel nobis tempore ab fuga ea repudiandae quae earum ducimus nihil. Voluptatem neque dicta vel, modi rerum assumenda, quae esse quisquam magni maiores mollitia quidem!
+                                Quasi deleniti temporibus nemo nihil? Quis possimus in totam suscipit, harum excepturi accusantium necessitatibus commodi, deleniti culpa voluptate accusamus! Magni id odit placeat sequi quasi rerum nostrum inventore, minus quae!
+                                Adipisci eligendi at, doloremque nisi molestias ipsa. Amet sed ad, minus nulla dignissimos nobis sit alias repellendus veniam maiores. Officiis, similique perferendis! Amet consequatur rerum esse rem fugit ut neque.
+                                Reiciendis inventore vitae eum qui esse impedit beatae! Assumenda dolores debitis quas fuga quaerat eligendi voluptatibus sit error velit facilis, dolor porro nostrum harum ab beatae modi quam minus expedita.
+                                Provident assumenda, iusto sapiente, optio dignissimos ex alias culpa magnam quia eos rerum iure voluptatibus, sequi cum amet. Veniam neque perferendis vitae voluptatum sequi itaque aperiam at quibusdam dolores sapiente!
+                                Maiores molestias hic incidunt ea? Assumenda tempore eos aperiam non est iusto tempora consequuntur? Earum repudiandae, sit accusamus hic perferendis consectetur consequuntur sequi est ab deserunt asperiores non aperiam. Quasi.
+                                Doloremque, minus eius qui alias vitae a dolorum aut soluta, placeat nostrum iure ipsam odio excepturi, quidem quasi esse eos tempora voluptates! Soluta ad consectetur reprehenderit tempore, voluptatibus temporibus placeat?
+                                Dolores iste id, labore cum quae temporibus atque ut excepturi perspiciatis enim. Magni odio nisi deserunt ullam modi, tenetur optio quisquam et consequatur, reprehenderit numquam tempore, mollitia praesentium eius minus.
+                                Quos asperiores exercitationem corrupti quidem atque, hic autem earum facere quisquam, nostrum odit tenetur, assumenda nam quibusdam aliquid consectetur obcaecati enim commodi voluptatibus odio! Amet, consequuntur illo? Aliquam, necessitatibus doloribus?
+                                Praesentium laboriosam totam officiis sapiente aspernatur quia, nobis eos illo pariatur nihil, aperiam possimus corporis, itaque sed. Dolore eius sed eos quasi ducimus doloribus aspernatur ipsam voluptatibus omnis. Libero, qui.
+                                Maxime animi ipsam aut reiciendis, ut veniam sed illum blanditiis? Neque, odio aliquam. Deleniti aspernatur, quibusdam id ut incidunt molestias voluptatum sequi delectus ipsum excepturi atque a voluptatem adipisci culpa.
+                                Quibusdam quod ad veniam sit, enim delectus, repellat necessitatibus cum eligendi minus libero? At accusantium illum sit architecto praesentium dignissimos eius unde, corporis fugiat placeat, minima asperiores velit perferendis nesciunt.
+                                Porro aspernatur minus tenetur veritatis, explicabo provident quia vel sit, laudantium incidunt quam amet accusamus corporis ea, tempora similique earum dolores reiciendis veniam commodi fugiat inventore. Facilis, laudantium obcaecati? Veritatis?
+                                Officia neque eos voluptate illum eaque, sed delectus, accusamus iure dolores, aperiam dolore. Quaerat ad iste inventore odit doloribus corrupti eius necessitatibus possimus nam, quasi hic saepe libero modi culpa.
+                                Eaque odit labore, aliquam culpa voluptas sint cum, veritatis doloremque error optio, ea illo obcaecati incidunt expedita? Voluptatibus deleniti eum rem optio dolor. Esse quia officiis a modi libero maiores?
+                                Dolorum deleniti minus accusamus eligendi autem similique et impedit fuga, optio nostrum harum dicta nisi voluptatem quis esse? Suscipit numquam ex itaque. Magnam esse architecto neque sunt repudiandae facilis dolore?
+                                Aspernatur, aut corporis pariatur maiores officia et! Excepturi quis dolorum odit fugit architecto! Velit iure cumque sunt soluta culpa, quia possimus distinctio pariatur, laudantium veritatis vero? Accusamus consequatur nam sequi?
+                                Dolorem minus eius quis magni aliquam ut voluptates deleniti aspernatur? Minima a dicta, sint obcaecati, sapiente cum quibusdam dolore sed eum corrupti minus vel totam quia tempore perspiciatis optio neque!
+                                In tempora error earum, facere sunt sed hic optio dolore. Explicabo exercitationem, atque id, commodi dolor ea quod consequuntur, asperiores dolorum itaque provident ipsam molestiae? Dolores mollitia cumque molestiae illo?
+                                Repudiandae, libero. Laudantium facilis saepe minus numquam debitis illo placeat quibusdam dolore reprehenderit recusandae ipsa, eos assumenda, sit, magnam nobis repellendus vel. Distinctio amet saepe deleniti obcaecati id, non aut.
+                                Qui veritatis non accusantium? Unde eius aut beatae, cupiditate molestiae non consequuntur. Magnam repellendus quasi tempore obcaecati, omnis beatae adipisci facere aliquam ratione sapiente. Cumque blanditiis molestias dolore natus facilis!
+                                Odio officia nam reprehenderit alias dicta illum asperiores quod est cupiditate dolore a atque, provident, repudiandae dolorum accusamus qui soluta. Blanditiis corporis sunt beatae totam quas at esse rem voluptates?
+                                Error, pariatur eos. Similique mollitia cupiditate cumque exercitationem illum modi veniam adipisci at amet suscipit sint, unde sunt. Tempore sunt consequuntur, dolorum unde quis veniam obcaecati assumenda quas vero accusamus!
+                                Beatae doloribus nesciunt repellat veritatis ratione consectetur vero minus ut eveniet vitae, minima atque dolores quam nostrum excepturi tempora eaque at voluptates neque. Provident sed obcaecati ipsam ratione, cum inventore?
+                                </p>
+                            </div>
+                            <button>
+                                Узнать больше
+                            </button>
+                        </div>
+                        <div class="block-marquee block-red-bg">
+                            <div class="block-marquee__marquee">
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <aside class="footer__aside">
+            <a href="#">
+                <img src="img/svgicons/logo.svg" alt="">
+            </a>
+            <nav>
+                <a href="tel:+ 375 (29) 377 51 41">
+                    <img src="img/phones/1.png" alt="">
+                    + 375 (29) 377 51 41
+                </a>
+                <a href="tel:+ 375 (33) 377 51 41">
+                    <img src="img/phones/2.png" alt="">
+                    + 375 (33) 377 51 41
+                </a>
+                <a href="tel:+ 375 (17) 388 22 08">
+                    <img src="img/phones/3.png" alt="">
+                    + 375 (17) 388 22 08
+                </a>
+            </nav>
+            <nav>
+                <a href="mailto:dveri-darom@mail.ru">
+                    <img src="img/svgicons/invite/mail.svg" alt="">
+                    e-mail: dveri-darom@mail.ru
+                </a>
+                <a href="#">
+                    <img src="img/svgicons/invite/address.svg" alt="">
+                    ул. Мстиславца, 24 | метро Восток, "Маяк Минска"
+                </a>
+                <a href="#">
+                    <img src="img/svgicons/invite/time.svg" alt="">
+                    <span>
+                        с 9:00 до 20:00
+                        <b>БЕЗ ВЫХОДНЫХ</b>
+                    </span>
+                </a>
+            </nav>
+            <p>
+                <b>Общество с ограниченной ответственностью "Любимые Двери"</b>
+                <br>
+                УНП 193645476, г. Минск, ул. Мстиславца 24-155, 220114
+                <br>
+                р/с: BY19MTBK 30120001093300116293 в ЗАО «Минский транзитный банк» 220007
+                <br>
+                БИК МТВКВY22, г. Минск ул. Толстого, 10
+                <br>
+            </p>
+        </aside>
+        <main class="footer__main">
+            <div class="block-labels">
+                <button class="block-labels__item green">
+                    <img src="img/block-labels/1.png" alt="">
+                    <p>Обратный звонок</p>
+                </button>
+                <button class="block-labels__item yellow">
+                    <img src="img/block-labels/2.png" alt="">
+                    <p>Вызвать замерщика</p>
+                </button>
+            </div>
+            <nav>
+                <div>
+                    <a href="#">Межкомнатные двери</a>
+                    <a href="#">Входные двери</a>
+                    <a href="#">Каталог</a>
+                    <a href="#">АКЦИИ</a>
+                    <a href="#">распродажа %</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div>
+                    <h2>Клиентам</h2>
+                    <a href="#">Как заказать</a>
+                    <a href="#">Замер проемов</a>
+                    <a href="#">Доставка</a>
+                    <a href="#">Монтаж дверей</a>
+                    <a href="#">Оплата</a>
+                    <a href="#">Обращение по гарантии</a>
+                    <a href="#">Купить 1 дверь</a>
+                    <a href="#">Рассрочка</a>
+                    <a href="#">Блог о дверях</a>
+                </div>
+                <div>
+                    <h2>Мы в социальных сетях:</h2>
+                    <div class="socials">
+                        <a href="#">
+                            <img src="img/socials/inst.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/socials/yt.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <p>
+                    © 2010-2024 | ООО "Любимые Двери" УНП 193645476 | Реальный цвет товара может отличаться от изображения в рекламных материалах и на сайте. Фотографии товаров носят иллюстрационный характер. Для выбора цвета и модели дверей мы приглашаем Вас в салон. Информация о товаре и ценах, размещённая на сайте, не является публичной офертой. Используя данный сайт, Вы даете согласие на использование файлов cookie и других технологий, чтобы помочь Вам в навигации, а также предоставить лучший пользовательский опыт. Если вы не хотите использовать файлы «cookie», измените настройки браузера или покиньте сайт.
+                    <br>
+                    Подробнее:
+                    <a href="#">Политика конфиденциальности</a>
+                </p>
+            </nav>
+        </main>
+    </div>
+</footer>
+
+        </div>
+    </body>
+</html>

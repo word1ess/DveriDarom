@@ -34,23 +34,59 @@
                 </p>
             </div>
             <nav class="header__dropdowns">
-                <div class="sale" href="tel:+7 925-267-46-34">
-                    <a href="#">АКЦИИ</a>
-                    <svg>
-                        <use xlink:href="#arrow-down"></use>
-                    </svg>
+                <div class="sale">
+                    <div class="header-dropdown__header">
+                        <a href="#">АКЦИИ</a>
+                        <svg>
+                            <use xlink:href="#arrow-down"></use>
+                        </svg>
+                    </div>
+                    <div class="header-dropdown__dropdown">
+                        <div class="header-dropdown__window">
+                            <a href="#">Акции</a>
+                            <a href="#">Распродажа%</a>
+                        </div>
+                    </div>
                 </div>
-                <div href="tel:+7 925-267-46-34">
-                    <a href="#">О нас</a>
-                    <svg>
-                        <use xlink:href="#arrow-down"></use>
-                    </svg>
+                <div>
+                    <div class="header-dropdown__header">
+                        <a href="#">О нас</a>
+                        <svg>
+                            <use xlink:href="#arrow-down"></use>
+                        </svg>
+                    </div>
+                    <div class="header-dropdown__dropdown">
+                        <div class="header-dropdown__window">
+                            <a href="#">О компании</a>
+                            <a href="#">Отзывы</a>
+                            <a href="#">Новости</a>
+                            <a href="#">Информация</a>
+                            <a href="#">Дизайнерам</a>
+                            <a href="#">Гарантии</a>
+                            <a href="#">Наши работы</a>
+                        </div>
+                    </div>
                 </div>
-                <div href="tel:+7 925-267-46-34">
-                    <a href="#">Клиентам</a>
-                    <svg>
-                        <use xlink:href="#arrow-down"></use>
-                    </svg>
+                <div>
+                    <div class="header-dropdown__header">
+                        <a href="#">Клиентам</a>
+                        <svg>
+                            <use xlink:href="#arrow-down"></use>
+                        </svg>
+                    </div>
+                    <div class="header-dropdown__dropdown">
+                        <div class="header-dropdown__window">
+                            <a href="#">Как заказать</a>
+                            <a href="#">Замер проемов</a>
+                            <a href="#">Доставка</a>
+                            <a href="#">Монтаж дверей</a>
+                            <a href="#">Оплата</a>
+                            <a href="#">Обращение по гарантии</a>
+                            <a href="#">Купить 1 дверь</a>
+                            <a href="#">Рассрочка</a>
+                            <a href="#">Блог о дверях</a>
+                        </div>
+                    </div>
                 </div>
                 <a href="#">Рассрочка</a>
                 <a href="#">Контакты</a>
@@ -64,6 +100,8 @@
             </a>
             <div class="header__burger _burger-catalog">
                 <img src="img/svgicons/catalog.svg" alt="logo">
+                <img src="img/svgicons/catalog-close.svg" alt="">
+                <span></span>
                 Каталог
             </div>
             <form action="#" class="header__search search">
@@ -73,10 +111,15 @@
                 </button>
             </form>
             <div class="header__callback">
-                <a href="tel:+375 (29) 377-51-41">+375 (29) 377-51-41</a>
+                <a href="tel:+375 (29) 377-51-41">+375 (29) 377-51-41</a>
                 <button data-modal="callback">Вам перезвонить?</button>
             </div>
             <nav class="header__buttons">
+                <a data-modal="callback" href="#">
+                    <svg>
+                        <use xlink:href="#phone"></use>
+                    </svg>
+                </a>
                 <a href="#">
                     <svg>
                         <use xlink:href="#favorite"></use>
@@ -91,97 +134,297 @@
         </div>
     </footer>
 </header>
-<!-- <section class="header-catalog">
-    <div class="header-catalog__window">
-        <div class="container">
-            <main class="header-catalog__row">
-                <nav class="header-catalog__links _links-main">
-                    <a href="#" class="_link-main">
-                        Дизайнерская мебель
-                        <img src="img/svgicons/slider-arrow.svg" alt="">
-                    </a>
-                    <a href="#" class="_link-main">
-                        Horeca
-                        <img src="img/svgicons/slider-arrow.svg" alt="">
-                    </a>
-                    <a href="#">Освещение</a>
-                    <a href="#">Посуда</a>
-                    <a href="#">Вазы</a>
-                    <a href="#">Посуда</a>
-                </nav>
-                <div class="header-catalog__sublinks _links-sub">
-                    <nav class="header-catalog__links">
-                        <a href="#" class="_link-sub">
-                            Стулья
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="_link-sub">
-                            Диваны
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="_link-sub">
-                            Хранение
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="_link-sub">
-                            Столы
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="_link-sub">
-                            Уличная мебель
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#">Скамьи</a>
-                        <a href="#">Кровати</a>
-                    </nav>
-                    <nav class="header-catalog__links">
-                        <a href="#" class="_link-sub">
-                            Стулья1
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="_link-sub">
-                            Диваны
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="_link-sub">
-                            Хранение
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="_link-sub">
-                            Столы
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#" class="_link-sub">
-                            Уличная мебель
-                            <img src="img/svgicons/slider-arrow.svg" alt="">
-                        </a>
-                        <a href="#">Скамьи</a>
-                        <a href="#">Кровати</a>
-                    </nav>
+<section class="header-catalog">
+    <main class="header-catalog__row">
+        <nav class="header-catalog__links _links-main">
+            <a href="#" class="_link-main">
+                Межкомнатные двери
+                <svg>
+                    <use xlink:href="#arrow-down"></use>
+                </svg>
+            </a>
+            <a href="#" class="_link-main">
+                Входные двери
+                <svg>
+                    <use xlink:href="#arrow-down"></use>
+                </svg>
+            </a>
+            <a href="#" class="_link-main">
+                Фурнитура
+                <svg>
+                    <use xlink:href="#arrow-down"></use>
+                </svg>
+            </a>
+        </nav>
+        <div class="header-catalog__sublinks _links-sub">
+            <div class="header-catalog__sublink">
+                <div class="header-catalog__item">
+                    <p>По цвету</p>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
                 </div>
-                <div class="header-catalog__last _links-last">
-                    <nav class="header-catalog__links">
-                        <a href="#">Кушетки</a>
-                        <a href="#">Модульные диваны</a>
-                        <a href="#">Прямые диваны</a>
-                        <a href="#">Угловые диваны</a>
-                        <a href="#">Раскладные диваны</a>
-                    </nav>
+                <div class="header-catalog__item">
+                    <p>По цвету</p>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
                 </div>
-            </main>
-            <aside class="header-aside">
-                <a href="#" class="header-aside__block">
-                    <img src="img/header/sale.png" alt="">
-                    <p>скидки</p>
-                </a>
-                <a href="#" class="header-aside__block">
-                    <img src="img/header/instock.png" alt="">
-                    <p>в наличии</p>
-                </a>
-            </aside>
+                <div class="header-catalog__item">
+                    <p>По цвету</p>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <div class="show-more">
+                        <div class="show-more__text">
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                        </div>
+                        <button>
+                            Еще..
+                        </button>
+                    </div>
+                </div>
+                <div class="header-catalog__item">
+                    <p>По цвету</p>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                </div>
+                <div class="header-catalog__item">
+                    <p>По цвету</p>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                </div>
+                <div class="header-catalog__item">
+                    <p>По цвету</p>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                </div>
+                <div class="header-catalog__item">
+                    <p>По цвету</p>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                    <a href="#">Белый</a>
+                </div>
+            </div>
         </div>
+    </main>
+</section>
+<nav class="header-mobile-menu">
+    <div class="header-mobile-menu__container">
+        <main class="header-mobile-menu__row">
+            <div class="header-mobile-menu__half">
+                <div class="header-mobile-menu__dropdown">
+                    <div class="header-mobile-menu__header">
+                        <a href="#">Межкомнатные двери</a>
+                        <button>
+                            <svg>
+                                <use xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="header-mobile-menu__body">
+                        <a href="#">Все двери</a>
+                        <div class="header-mobile-menu__header">
+                            <a href="#">По цвету</a>
+                            <button>
+                                <svg>
+                                    <use xlink:href="#arrow-down"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="header-mobile-menu__body">
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                        </div>
+                        <div class="header-mobile-menu__header">
+                            <a href="#">По стилю</a>
+                            <button>
+                                <svg>
+                                    <use xlink:href="#arrow-down"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="header-mobile-menu__body">
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-mobile-menu__dropdown">
+                    <div class="header-mobile-menu__header">
+                        <a href="#">Входные двери</a>
+                        <button>
+                            <svg>
+                                <use xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="header-mobile-menu__body">
+                        <a href="#">Все двери</a>
+                        <div class="header-mobile-menu__header">
+                            <a href="#">По назначению</a>
+                            <button>
+                                <svg>
+                                    <use xlink:href="#arrow-down"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="header-mobile-menu__body">
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                            <a href="#">Белый</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Рассрочка</a>
+                <a href="#">АКЦИИ</a>
+                <a href="#">Распродажа</a>
+                <a href="#">Контакты</a>
+            </div>
+            <div class="header-mobile-menu__half">
+                <div class="header-mobile-menu__dropdown">
+                    <div class="header-mobile-menu__header">
+                        <a href="#">О нас</a>
+                        <button>
+                            <svg>
+                                <use xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="header-mobile-menu__body">
+                        <a href="#">О компании</a>
+                        <a href="#">Отзывы</a>
+                        <a href="#">Новости</a>
+                        <a href="#">Информация</a>
+                        <a href="#">Дизайнерам</a>
+                        <a href="#">Гарантии</a>
+                        <a href="#">Наши работы</a>
+                    </div>
+                </div>
+                <div class="header-mobile-menu__dropdown">
+                    <div class="header-mobile-menu__header">
+                        <a href="#">Клиентам</a>
+                        <button>
+                            <svg>
+                                <use xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="header-mobile-menu__body">
+                        <a href="#">О компании</a>
+                        <a href="#">Отзывы</a>
+                        <a href="#">Новости</a>
+                        <a href="#">Информация</a>
+                        <a href="#">Дизайнерам</a>
+                        <a href="#">Гарантии</a>
+                        <a href="#">Наши работы</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="header-mobile-menu__footer">
+            <div class="header-mobile-menu__nav">
+                <nav>
+                    <a href="#">
+                        <img src="img/svgicons/invite/address.svg" alt="">
+                        ул. Мстиславца, 24 | метро Восток
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/invite/time.svg" alt="">
+                        с 9:00 до 20:00 БЕЗ ВЫХОДНЫХ
+                    </a>
+                    <a href="mailto:dveri-darom@mail.ru">
+                        <img src="img/svgicons/invite/mail.svg" alt="">
+                        e-mail: dveri-darom@mail.ru
+                    </a>
+                </nav>
+                <nav>
+                    <a href="tel:+ 375 (29) 377 51 41">
+                        <img src="img/phones/1.png" alt="">
+                        + 375 (29) 377 51 41
+                    </a>
+                    <a href="tel:+ 375 (33) 377 51 41">
+                        <img src="img/phones/2.png" alt="">
+                        + 375 (33) 377 51 41
+                    </a>
+                    <a href="tel:+ 375 (17) 388 22 08">
+                        <img src="img/phones/3.png" alt="">
+                        + 375 (17) 388 22 08
+                    </a>
+                </nav>
+            </div>
+            <div class="block-labels reverse center">
+                <button class="block-labels__item green">
+                    <img src="img/block-labels/1.png" alt="">
+                    <p>Обратный звонок</p>
+                </button>
+                <button class="block-labels__item yellow">
+                    <img src="img/block-labels/2.png" alt="">
+                    <p>Вызвать замерщика</p>
+                </button>
+            </div>
+        </footer>
     </div>
-</section> -->
+</nav>
 <svg display="none">
     <symbol id="arrow-down" viewBox="0 0 14 8">
         <g>
@@ -214,6 +457,13 @@
     <symbol id="cart" viewBox="0 0 18 18">
         <g>
             <path d="M5.18518 17.284C4.70988 17.284 4.30298 17.1147 3.96451 16.7762C3.62603 16.4378 3.45679 16.0309 3.45679 15.5556C3.45679 15.0802 3.62603 14.6734 3.96451 14.3349C4.30298 13.9964 4.70988 13.8272 5.18518 13.8272C5.66049 13.8272 6.06739 13.9964 6.40586 14.3349C6.74434 14.6734 6.91358 15.0802 6.91358 15.5556C6.91358 16.0309 6.74434 16.4378 6.40586 16.7762C6.06739 17.1147 5.66049 17.284 5.18518 17.284ZM13.8272 17.284C13.3519 17.284 12.945 17.1147 12.6065 16.7762C12.268 16.4378 12.0988 16.0309 12.0988 15.5556C12.0988 15.0802 12.268 14.6734 12.6065 14.3349C12.945 13.9964 13.3519 13.8272 13.8272 13.8272C14.3025 13.8272 14.7094 13.9964 15.0478 14.3349C15.3863 14.6734 15.5556 15.0802 15.5556 15.5556C15.5556 16.0309 15.3863 16.4378 15.0478 16.7762C14.7094 17.1147 14.3025 17.284 13.8272 17.284ZM4.45062 3.45679L6.52469 7.77778H12.5741L14.9506 3.45679H4.45062ZM3.62963 1.7284H16.3765C16.7078 1.7284 16.9599 1.87603 17.1327 2.1713C17.3056 2.46656 17.3128 2.76543 17.1543 3.0679L14.0864 8.59877C13.928 8.88683 13.7155 9.11008 13.4491 9.26852C13.1826 9.42696 12.8909 9.50617 12.5741 9.50617H6.1358L5.18518 11.2346H15.5556V12.963H5.18518C4.53704 12.963 4.04732 12.6785 3.71605 12.1096C3.38477 11.5406 3.37037 10.9753 3.67284 10.4136L4.83951 8.2963L1.72839 1.7284H0V0H2.80864L3.62963 1.7284Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="phone" viewBox="0 0 20 20">
+        <g>
+            <path d="M4.0501 12.7626C5.90671 14.982 8.14166 16.7294 10.6925 17.9658C11.6638 18.4261 12.9626 18.9721 14.4097 19.0657C14.4994 19.0696 14.5852 19.0735 14.6749 19.0735C15.6461 19.0735 16.4262 18.7381 17.062 18.0477C17.0659 18.0438 17.0737 18.036 17.0776 18.0282C17.3038 17.7552 17.5612 17.5095 17.8304 17.2481C18.0137 17.0726 18.2009 16.8893 18.3803 16.7021C19.2111 15.8362 19.2111 14.7362 18.3725 13.8976L16.0284 11.5535C15.6305 11.14 15.1547 10.9216 14.6554 10.9216C14.1561 10.9216 13.6764 11.14 13.2668 11.5496L11.8705 12.9459C11.7418 12.8718 11.6092 12.8055 11.4843 12.7431C11.3283 12.6651 11.184 12.591 11.0553 12.5091C9.78374 11.7017 8.62922 10.6486 7.52539 9.29512C6.96763 8.58914 6.59319 7.99628 6.33186 7.39171C6.6985 7.06017 7.04174 6.71303 7.37327 6.37369C7.49029 6.25278 7.6112 6.13187 7.73211 6.01095C8.15336 5.5897 8.37959 5.10215 8.37959 4.60679C8.37959 4.11144 8.15726 3.62388 7.73211 3.20263L6.56978 2.0403C6.43327 1.90379 6.30455 1.77117 6.17194 1.63466C5.91451 1.36943 5.64538 1.0964 5.38015 0.850668C4.9784 0.456723 4.50645 0.25 4.00719 0.25C3.51184 0.25 3.03598 0.456723 2.61864 0.854568L1.15987 2.31333C0.629411 2.84379 0.329077 3.48737 0.26667 4.23235C0.192562 5.16456 0.364181 6.15527 0.808831 7.3527C1.49141 9.20541 2.52113 10.9255 4.0501 12.7626ZM1.21838 4.31426C1.26518 3.7955 1.46411 3.36255 1.83855 2.98811L3.28951 1.53715C3.51574 1.31872 3.76537 1.20561 4.00719 1.20561C4.24512 1.20561 4.48695 1.31872 4.70927 1.54495C4.9706 1.78677 5.21633 2.0403 5.48156 2.30943C5.61417 2.44595 5.75069 2.58246 5.88721 2.72288L7.04954 3.88521C7.29136 4.12704 7.41618 4.37277 7.41618 4.61459C7.41618 4.85642 7.29136 5.10215 7.04954 5.34398C6.92862 5.46489 6.80771 5.5897 6.6868 5.71062C6.32405 6.07726 5.98472 6.4244 5.61027 6.75594C5.60247 6.76374 5.59857 6.76764 5.59077 6.77544C5.26704 7.09917 5.31774 7.40731 5.39575 7.64134C5.39965 7.65304 5.40355 7.66084 5.40745 7.67254C5.70779 8.39412 6.12513 9.0806 6.77651 9.89969C7.94664 11.3429 9.17918 12.4623 10.5365 13.3243C10.7043 13.4335 10.8837 13.5193 11.0514 13.6051C11.2074 13.6831 11.3517 13.7572 11.4804 13.8391C11.496 13.8469 11.5077 13.8547 11.5233 13.8625C11.6521 13.9288 11.7769 13.9601 11.9017 13.9601C12.2137 13.9601 12.4165 13.7611 12.4829 13.6948L13.9416 12.2361C14.1678 12.0098 14.4136 11.8889 14.6554 11.8889C14.9518 11.8889 15.1937 12.0722 15.3458 12.2361L17.6977 14.5841C18.1658 15.0522 18.1619 15.5592 17.686 16.0546C17.5222 16.2301 17.3506 16.3978 17.1673 16.5733C16.8942 16.8386 16.6095 17.1116 16.3521 17.4197C15.9035 17.9034 15.3692 18.1296 14.6788 18.1296C14.6125 18.1296 14.5423 18.1257 14.476 18.1218C13.1966 18.0399 12.007 17.5407 11.1138 17.1155C8.68772 15.9415 6.55808 14.276 4.79118 12.1619C3.33632 10.4106 2.35731 8.78027 1.70983 7.03287C1.30809 5.96025 1.15597 5.09825 1.21838 4.31426Z" stroke-width="2"/>
         </g>
     </symbol>
 </svg>
@@ -331,6 +581,7 @@
                         </div>
                         <button data-modal="call-master" class="call-master small">
                             <img src="img/call-master/small_2.png" alt="">
+                            <img src="img/call-master/normal.png" alt="">
                             <p>Вызвать замерщика</p>
                         </button>
                     </div>
@@ -388,6 +639,17 @@
             <a href="#">
                 <img src="img/svgicons/logo.svg" alt="">
             </a>
+            <div class="mobile">
+                <p>Мы в социальных сетях:</p>
+                <div class="socials">
+                    <a href="#">
+                        <img src="img/socials/inst.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/socials/yt.png" alt="">
+                    </a>
+                </div>
+            </div>
             <nav>
                 <a href="tel:+ 375 (29) 377 51 41">
                     <img src="img/phones/1.png" alt="">
@@ -419,16 +681,18 @@
                     </span>
                 </a>
             </nav>
-            <p>
-                <b>Общество с ограниченной ответственностью "Любимые Двери"</b>
-                <br>
-                УНП 193645476, г. Минск, ул. Мстиславца 24-155, 220114
-                <br>
-                р/с: BY19MTBK 30120001093300116293 в ЗАО «Минский транзитный банк» 220007
-                <br>
-                БИК МТВКВY22, г. Минск ул. Толстого, 10
-                <br>
-            </p>
+            <div class="pc">
+                <p>
+                    <b>Общество с ограниченной ответственностью "Любимые Двери"</b>
+                    <br>
+                    УНП 193645476, г. Минск, ул. Мстиславца 24-155, 220114
+                    <br>
+                    р/с: BY19MTBK 30120001093300116293 в ЗАО «Минский транзитный банк» 220007
+                    <br>
+                    БИК МТВКВY22, г. Минск ул. Толстого, 10
+                    <br>
+                </p>
+            </div>
         </aside>
         <main class="footer__main">
             <div class="block-labels">
@@ -442,7 +706,7 @@
                 </button>
             </div>
             <nav>
-                <div>
+                <div class="pc">
                     <a href="#">Межкомнатные двери</a>
                     <a href="#">Входные двери</a>
                     <a href="#">Каталог</a>
@@ -451,7 +715,7 @@
                     <a href="#">О нас</a>
                     <a href="#">Контакты</a>
                 </div>
-                <div>
+                <div class="pc">
                     <h2>Клиентам</h2>
                     <a href="#">Как заказать</a>
                     <a href="#">Замер проемов</a>
@@ -463,7 +727,7 @@
                     <a href="#">Рассрочка</a>
                     <a href="#">Блог о дверях</a>
                 </div>
-                <div>
+                <div class="pc">
                     <h2>Мы в социальных сетях:</h2>
                     <div class="socials">
                         <a href="#">
@@ -473,6 +737,42 @@
                             <img src="img/socials/yt.png" alt="">
                         </a>
                     </div>
+                </div>
+                <div class="mobile">
+                    <a href="#">Межкомнатные двери</a>
+                    <a href="#">Входные двери</a>
+                </div>
+                <div class="mobile">
+                    <nav>
+                        <a href="#">АКЦИИ</a>
+                        <a href="#">распродажа %</a>
+                        <a href="#">О компании</a>
+                        <a href="#">Контакты</a>
+                    </nav>
+                    <nav>
+                        <a href="#">Как заказать</a>
+                        <a href="#">Замер проемов</a>
+                        <a href="#">Доставка</a>
+                        <a href="#">Монтаж дверей</a>
+                        <a href="#">Оплата</a>
+                    </nav>
+                    <nav>
+                        <a href="#">Обращение по гарантии</a>
+                        <a href="#">Купить 1 дверь</a>
+                        <a href="#">Рассрочка</a>
+                        <a href="#">Блог о дверях</a>
+                    </nav>
+                </div>
+                <div class="mobile">
+                    <p>
+                        <b>Общество с ограниченной ответственностью "Любимые Двери"</b>
+                        <br>
+                        УНП 193645476, г. Минск, ул. Мстиславца 24-155, 220114
+                        <br>
+                        р/с: BY19MTBK 30120001093300116293 в ЗАО «Минский транзитный банк» 220007
+                        <br>
+                        БИК МТВКВY22, г. Минск ул. Толстого, 10
+                    </p>
                 </div>
                 <p>
                     © 2010-2024 | ООО "Любимые Двери" УНП 193645476 | Реальный цвет товара может отличаться от изображения в рекламных материалах и на сайте. Фотографии товаров носят иллюстрационный характер. Для выбора цвета и модели дверей мы приглашаем Вас в салон. Информация о товаре и ценах, размещённая на сайте, не является публичной офертой. Используя данный сайт, Вы даете согласие на использование файлов cookie и других технологий, чтобы помочь Вам в навигации, а также предоставить лучший пользовательский опыт. Если вы не хотите использовать файлы «cookie», измените настройки браузера или покиньте сайт.
@@ -484,6 +784,25 @@
         </main>
     </div>
 </footer>
+<div class="dialogbox dialogbox-callback">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <form action="#">
+                <header class="block-header">
+                    <p>начните работать с нами</p>
+                    <h2>Вызвать замерщика</h2>
+                    <p>Укажите номер телефона и мы свяжемся с Вами в ближайшее время!</p>
+                </header>
+                <div class="inputs">
+                    <input type="tel" name="phone" placeholder="+375(__)___-__-__">
+                    <button class="btn btn-red" type="submit">отправить</button>
+                </div>
+            </form>
+            <img class="dialogbox__bg" src="img/dialogbox/callback.png" alt="">
+        </div>
+    </div>
+</div>
 
         </div>
     </body>

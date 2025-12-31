@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
     <link rel="stylesheet" href="css/style.min.css">
     <script defer src="js/app.min.js"></script>
-    <title>Главная</title>
+    <title>Корзина</title>
 </head>
 
     <body>
@@ -495,33 +495,333 @@
 </svg> -->
 
             <main class="content">
-                <section class="intro">
+                <nav class="page-nav">
                     <div class="container">
-                        <h1>Страницы:</h1>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./main.html">Главная</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./exit-doors.html">Каталог_входные</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./sales.html">Акции</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./sale.html">Распродажа</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./about.html">О компании</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./reviews.html">Отзывы</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./news.html">Новости</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./news-page.html">Новость</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./news-page-second.html">Новость вторая</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./designers.html">Дизайнерам</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./garanties.html">Гарантии</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./porfolio.html">Наши работы</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./order.html">Как сделать заказ</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./measuring.html">Замер проемов</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./delivery.html">Доставка</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./montage.html">Монтаж</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./payment.html">Оплата</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./guarantee.html">Обращение по гарантии</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./buy.html">Купить 1 дверь</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./credit.html">Рассрочка</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./blog.html">Статьи блога</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./contacts.html">Контакты</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./thank-you.html">Правила возврата</a>
-                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./cart.html">Корзина</a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/rooms.svg" alt="">
+                            Межкомнатные двери
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/exit.svg" alt="">
+                            Входные двери
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/furniture.svg" alt="">
+                            Фурнитура
+                        </a>
+                        <a href="#">
+                            <img src="img/svgicons/page-nav/master.svg" alt="">
+                            Вызвать замерщика
+                        </a>
+                    </div>
+                </nav>
+                <section class="block-marquee-section">
+                    <div class="container">
+                        <div class="block-marquee block-red-bg">
+                            <div class="block-marquee__marquee">
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <nav class="breadcrumbs">
+                    <div class="container">
+                        <a href="#">
+                            Главная
+                        </a>
+                        <div class="breadcrumbs__separator">·</div>
+                        <p>Корзина</p>
+                    </div>
+                </nav>
+                <section class="section">
+                    <div class="container">
+                        <div id="msCart">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr id="ms967657ba2924f7dc6dfcfbd2e86e520d">
+                                            <td class="ms-title">
+                                                <div class="d-flex">
+                                                    <div class="ms-image mw-100 pr-3">
+                                                        <a href="catalog/category-3/product-2">
+                                                            <img src="./img/index/doors/3.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="title">
+                                                    <a href="catalog/category-3/product-2">Товар 2</a>
+                                                </div>
+                                                <div class="ms-info">
+                                                    <p>
+                                                        <b>Материал покрытия:</b>
+                                                        финиш-плёнка
+                                                    </p>
+                                                    <p>
+                                                        <b>Материал каркаса</b>
+                                                        сотовый наполнитель
+                                                    </p>
+                                                </div>
+                                                <div class="ms-price">
+                                                    <b>Цена полотна:</b>
+                                                    <span class="old_price text-nowrap">250 руб.</span>
+                                                    <span class="mr-2 text-nowrap">315 руб.</span>
+                                                </div>
+                                                <div class="ms-count">
+                                                    <form method="post" class="ms2_form">
+                                                        <input type="hidden" name="key" value="ms967657ba2924f7dc6dfcfbd2e86e520d">
+                                                        <div class="form-group">
+                                                            <div class="input-group input-group-sm">
+                                                                <article class="count">
+                                                                    <button>
+                                                                        <svg>
+                                                                            <use xlink:href="#minus"></use>
+                                                                        </svg>
+                                                                    </button>
+                                                                    <input type="text" value="1">
+                                                                    <button>
+                                                                        <svg>
+                                                                            <use xlink:href="#plus"></use>
+                                                                        </svg>
+                                                                    </button>
+                                                                </article>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="ms-cost">
+                                                    <b>Итог:</b>
+                                                    <span class="mr-2 text-nowrap">
+                                                        <span class="ms2_cost">315</span>
+                                                        руб.
+                                                    </span>
+                                                </div>
+                                                <div class="ms-remove">
+                                                    <form method="post" class="ms2_form text-md-right">
+                                                        <input type="hidden" name="key" value="ms967657ba2924f7dc6dfcfbd2e86e520d">
+                                                        <button
+                                                            class="btn btn-sm btn-danger"
+                                                            type="submit"
+                                                            name="ms2_action"
+                                                            value="cart/remove"
+                                                        >
+                                                            <svg>
+                                                                <use xlink:href="#remove"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </form>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="ms-footer">
+                                            <th class="total_count">
+                                                <p>Товары:</p>
+                                                <span class="ms2_total_count">2</span>
+                                                шт.
+                                            </th>
+                                            <th class="total_cost text-nowrap" colspan="2">
+                                                <b>Итого:</b>
+                                                <span>
+                                                    <span class="ms2_total_cost">428</span>
+                                                    руб.
+                                                </span>
+                                            </th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <form class="ms2_form" id="msOrder" method="post">
+                            <div class="col-12 col-md-6" id="payments">
+                                <h4>Способы оплаты:</h4>
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <div class="checkbox">
+                                            <label class="col-form-label payment input-parent" style="">
+                                                <input
+                                                    type="radio"
+                                                    name="payment"
+                                                    value="1"
+                                                    id="payment_1"
+                                                    checked=""
+                                                >
+                                                Оплата наличными
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#">Правила возврата</a>
+                            </div>
+                            <div class="col-12 col-md-6" id="deliveries">
+                                <h4>Варианты доставки:</h4>
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <div class="checkbox">
+                                            <label class="col-form-label delivery input-parent">
+                                                <input
+                                                    type="radio"
+                                                    name="delivery"
+                                                    value="1"
+                                                    id="delivery_1"
+                                                    data-payments="[1]"
+                                                    checked=""
+                                                >
+                                                Самовывоз
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label class="col-form-label delivery input-parent">
+                                                <input
+                                                    type="radio"
+                                                    name="delivery"
+                                                    value="2"
+                                                    id="delivery_2"
+                                                    data-payments="[1]"
+                                                >
+                                                Доставка курьером
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group row input-parent">
+                                    <label class="col-md-4 col-form-label" for="phone">
+                                        Телефон
+                                        <span class="required-star">*</span>
+                                    </label>
+                                    <div class="col-md-8">
+                                        <input
+                                            type="text"
+                                            id="phone"
+                                            placeholder="Телефон"
+                                            name="phone"
+                                            value=""
+                                            class="form-control"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="form-group row input-parent">
+                                    <label class="col-md-4 col-form-label" for="comment">
+                                        Комментарий
+                                        <span class="required-star">*</span>
+                                    </label>
+                                    <div class="col-md-8">
+                                        <textarea
+                                            name="comment"
+                                            id="comment"
+                                            placeholder="Комментарий"
+                                            class="form-control"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group row input-parent">
+                                    <label class="col-md-4 col-form-label" for="text_address">
+                                        Адрес
+                                        <span class="required-star">*</span>
+                                    </label>
+                                    <div class="col-md-8">
+                                        <textarea
+                                            name="text_address"
+                                            id="text_address"
+                                            placeholder="Адрес"
+                                            class="form-control"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-end mb-5">
+                                    <button
+                                        type="submit"
+                                        name="ms2_action"
+                                        value="order/submit"
+                                        class="btn btn-red"
+                                    >
+                                        оформить заказ
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <section class="photos section">
+                    <div class="container">
+                        <header class="block-header flex">
+                            <h2>десятки качественных монтажей ежедневно</h2>
+                            <div class="separator"></div>
+                            <div class="swiper-buttons">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </header>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/photos/1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="assortiment section">
+                    <div class="container">
+                        <footer class="assortiment__advantages">
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/1.svg" alt="">
+                                <div>
+                                    <h3>Доставка</h3>
+                                    <p>по всей Беларуси</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/2.svg" alt="">
+                                <div>
+                                    <h3>Профессиональная установка</h3>
+                                    <p>чистый и аккуратный монтаж</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/3.svg" alt="">
+                                <div>
+                                    <h3>оплата</h3>
+                                    <p>любым способом</p>
+                                </div>
+                            </div>
+                            <div class="assortiment__advantage grid-cards__card">
+                                <img src="img/svgicons/assortiment/4.svg" alt="">
+                                <div>
+                                    <h3>Гарантии</h3>
+                                    <p>на монтаж и фурнитуру</p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
+                <section class="block-marquee-section">
+                    <div class="container">
+                        <div class="block-marquee block-red-bg">
+                            <div class="block-marquee__marquee">
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                                <p>Привезем двери за 3 дня в рассрочку без банка и предоплаты с гарантией 10 лет на монтаж дверей. Работаем “под ключ” с 2010 года.</p>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>

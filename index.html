@@ -522,6 +522,7 @@
                         <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./contacts.html">Контакты</a>
                         <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./thank-you.html">Правила возврата</a>
                         <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./cart.html">Корзина</a>
+                        <a style=" display: block; font-size: 20px; margin-bottom: 20px;" href="./item.html">Товар</a>
                     </div>
                 </section>
             </main>
@@ -676,7 +677,7 @@
         </main>
     </div>
 </footer>
-<div class="dialogbox dialogbox-callback">
+<div class="dialogbox dialogbox-master dialogbox-img">
     <div class="dialogbox__inner">
         <div class="dialogbox__window">
             <div class="dialogbox__close"></div>
@@ -691,7 +692,42 @@
                     <button class="btn btn-red" type="submit">отправить</button>
                 </div>
             </form>
+            <img class="dialogbox__bg" src="img/dialogbox/master.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-callback dialogbox-img">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <form action="#">
+                <header class="block-header">
+                    <p>начните работать с нами</p>
+                    <h2>Заказать обратный звонок</h2>
+                    <p>Укажите номер телефона и наш консультант свяжется с Вами в ближайшее время!</p>
+                </header>
+                <div class="inputs">
+                    <input type="tel" name="phone" placeholder="+375(__)___-__-__">
+                    <button class="btn btn-red" type="submit">отправить</button>
+                </div>
+            </form>
             <img class="dialogbox__bg" src="img/dialogbox/callback.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="dialogbox dialogbox-buy dialogbox-img">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <form action="#">
+                <header class="block-header">
+                    <h2>Спасибо!</h2>
+                    <p>Ваш заказ почти оформлен!</p>
+                    <p>Наш менеджер свяжется с Вами в ближайшее время по указанному номеру телефона.</p>
+                </header>
+                <img src="img/svgicons/logo.svg" alt="">
+            </form>
+            <img class="dialogbox__bg" src="img/dialogbox/thanks.png" alt="">
         </div>
     </div>
 </div>
